@@ -1,0 +1,131 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+nav{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    border:2px solid red;
+    background-color: #1f2937;
+    color:#f9faf8;
+}
+nav a{
+    text-decoration: none;
+    font-size: 24px;
+    color:#f9faf8;
+}
+nav ul{
+    display:flex;
+    list-style: none;
+    border:2px solid red;
+}
+nav ul li{
+    margin: 0 10px;
+    border:2px solid red;
+}
+#hero-section{
+    display:flex;
+    width:100%;
+    border:2px solid red;
+    height: 80vh;
+    justify-content: space-between;
+    align-items: center;
+    padding:1rem;
+    background-color: #1f2937;
+}
+.hero-text{
+    width: 45%;
+    border:2px solid red;
+
+}
+.hero-text h1{
+    font-size: 48px;
+    font-weight: bolder;
+    color:#f9faf8;
+}
+.hero-text p {
+    font-size: 18px;
+    margin: 10px 0;
+    color: #e5e7eb;
+}
+.hero-text button{
+    width: 90px;
+    height: 35px;
+    margin: 10px 0;
+    border:none;
+    outline: none;
+    background-color: #3882f6;
+    color:#f9faf8;
+    font-weight: bold;
+    border-radius: 7px;
+}
+.hero-image{
+    width: 45%;
+    border:2px solid red;
+    height:400px;
+}
+#services{
+    width:100%;
+    height: 80vh;
+    border:2px solid red;
+    text-align: center;
+    padding: 2rem 0;
+}
+#services .container{
+    display:flex;
+    width:100%;
+    height: 90%;
+    padding: 1rem;
+}
+.service-item{
+    border:2px solid red;
+    width: 24%;
+    height:70%;
+    margin: 0 1rem;
+    text-align: center;
+}
+#testimonial{
+    width: 100%;
+    height: 30vh;
+    border:2px solid red;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+#testimonial > p{
+    text-align: right;
+}
+blockquote{
+    width:40%;
+    border:2px solid red;
+}
+#cta{
+    width: 100%;
+    height: 30vh;
+    border:2px solid red;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.text{
+    margin-right: 2rem;
+    border:2px solid red;
+
+}
+
+footer{
+    text-align: center;
+    width:100%;
+    height:40px;
+    border:2px solid red;
+    padding: 10px;
+    background-color: #1f2937;
+    color:#f9faf8;
+
+}
