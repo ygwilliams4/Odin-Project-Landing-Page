@@ -10,7 +10,6 @@ nav{
     justify-content: space-between;
     align-items: center;
     padding: 1rem;
-    border:2px solid red;
     background-color: #1f2937;
     color:#f9faf8;
 }
@@ -22,16 +21,13 @@ nav a{
 nav ul{
     display:flex;
     list-style: none;
-    border:2px solid red;
 }
 nav ul li{
     margin: 0 10px;
-    border:2px solid red;
 }
 #hero-section{
     display:flex;
     width:100%;
-    border:2px solid red;
     height: 80vh;
     justify-content: space-between;
     align-items: center;
@@ -40,8 +36,6 @@ nav ul li{
 }
 .hero-text{
     width: 45%;
-    border:2px solid red;
-
 }
 .hero-text h1{
     font-size: 48px;
@@ -66,13 +60,11 @@ nav ul li{
 }
 .hero-image{
     width: 45%;
-    border:2px solid red;
     height:400px;
 }
 #services{
     width:100%;
     height: 80vh;
-    border:2px solid red;
     text-align: center;
     padding: 2rem 0;
 }
@@ -83,48 +75,78 @@ nav ul li{
     padding: 1rem;
 }
 .service-item{
-    border:2px solid red;
     width: 24%;
-    height:70%;
+    height:90%;
     margin: 0 1rem;
     text-align: center;
 }
+.img-holder{
+    border:4px solid blue;
+    border-radius: 5px;
+    width:100%;
+    height: 70%;
+    margin-bottom: 10px;
+}
 #testimonial{
     width: 100%;
-    height: 30vh;
-    border:2px solid red;
+    height: 50vh;
+    background-color: #e5e7eb;
     display:flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
 }
-#testimonial > p{
+#testimonial .container{
+    width:50%;
+}
+#testimonial .container > p{
     text-align: right;
+    font-weight: bold;
+    font-size: 18px;
 }
 blockquote{
-    width:40%;
-    border:2px solid red;
+    width:100%;
+    font-size: 26px;
+    font-style: italic;
 }
 #cta{
     width: 100%;
-    height: 30vh;
-    border:2px solid red;
+    height: 40vh;
     display:flex;
     align-items: center;
     justify-content: center;
+    color:#fff;
+}
+#cta .container{
+    display: flex;
+    background-color: #3882f6;
+    width:80%;
+    height: 50%;
 }
 .text{
-    margin-right: 2rem;
-    border:2px solid red;
-
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width:70%;
+    padding-left: 7rem;
+}
+#cta .container button{
+    width: 120px;
+    height: 35px;
+    margin: auto 0;
+    border: 2px solid #fff;
+    outline: none;
+    background-color: #3882f6;
+    color:#f9faf8;
+    font-weight: bold;
+    border-radius: 7px;
 }
 
 footer{
     text-align: center;
     width:100%;
     height:40px;
-    border:2px solid red;
-    padding: 10px;
+    padding: 14px;
     background-color: #1f2937;
     color:#f9faf8;
 
